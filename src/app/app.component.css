@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .geocoder {
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+    top: 16px;
+  }
+
+  .mapboxgl-ctrl-geocoder {
+    min-width: 300px;
+  }
+
+  .mapboxgl-ctrl-top-right .mapboxgl-ctrl {
+    margin: 16px 16px 0 0;
+  }
