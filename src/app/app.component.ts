@@ -13,7 +13,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   @ViewChild('mapElement') mapElement: ElementRef;
 
   ngOnInit() {
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWFwc3Blb3BsZSIsImEiOiJjbGNrNWZsM3YwYzdwM3ZwODd3bXhjMmU4In0.ZtFUUSvc-nk9xJD_dyuA5w';
+    mapboxgl.accessToken = 'ACCESS_TOKEN';
   }
 
   ngAfterViewInit(){
